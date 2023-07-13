@@ -28,6 +28,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@stripe/react-stripe-js", "virtual:b58b21414855c1c0532f0a8e8e942328e618bbb7ffa762cc8e765d64ae77d3d9cc66969337fd82445808ed097e56ce99cffd4cf3e405847bc521b12c293e20cb#npm:2.1.1"],\
+            ["@stripe/stripe-js", "npm:1.54.1"],\
             ["@tanstack/react-query", "virtual:b58b21414855c1c0532f0a8e8e942328e618bbb7ffa762cc8e765d64ae77d3d9cc66969337fd82445808ed097e56ce99cffd4cf3e405847bc521b12c293e20cb#npm:4.29.19"],\
             ["@types/react", "npm:18.2.14"],\
             ["@types/react-dom", "npm:18.2.6"],\
@@ -817,6 +819,46 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@remix-run-router-npm-1.7.1-55fcec5a05-d13ad7e0b3.zip/node_modules/@remix-run/router/",\
           "packageDependencies": [\
             ["@remix-run/router", "npm:1.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@stripe/react-stripe-js", [\
+        ["npm:2.1.1", {\
+          "packageLocation": "./.yarn/cache/@stripe-react-stripe-js-npm-2.1.1-99f9dea6be-b9c0a2d3f9.zip/node_modules/@stripe/react-stripe-js/",\
+          "packageDependencies": [\
+            ["@stripe/react-stripe-js", "npm:2.1.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:b58b21414855c1c0532f0a8e8e942328e618bbb7ffa762cc8e765d64ae77d3d9cc66969337fd82445808ed097e56ce99cffd4cf3e405847bc521b12c293e20cb#npm:2.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/@stripe-react-stripe-js-virtual-5661211709/0/cache/@stripe-react-stripe-js-npm-2.1.1-99f9dea6be-b9c0a2d3f9.zip/node_modules/@stripe/react-stripe-js/",\
+          "packageDependencies": [\
+            ["@stripe/react-stripe-js", "virtual:b58b21414855c1c0532f0a8e8e942328e618bbb7ffa762cc8e765d64ae77d3d9cc66969337fd82445808ed097e56ce99cffd4cf3e405847bc521b12c293e20cb#npm:2.1.1"],\
+            ["@stripe/stripe-js", "npm:1.54.1"],\
+            ["@types/react", "npm:18.2.14"],\
+            ["@types/react-dom", "npm:18.2.6"],\
+            ["@types/stripe__stripe-js", null],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:b58b21414855c1c0532f0a8e8e942328e618bbb7ffa762cc8e765d64ae77d3d9cc66969337fd82445808ed097e56ce99cffd4cf3e405847bc521b12c293e20cb#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@stripe/stripe-js",\
+            "@types/react-dom",\
+            "@types/react",\
+            "@types/stripe__stripe-js",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@stripe/stripe-js", [\
+        ["npm:1.54.1", {\
+          "packageLocation": "./.yarn/cache/@stripe-stripe-js-npm-1.54.1-5949142f7a-eb54054ede.zip/node_modules/@stripe/stripe-js/",\
+          "packageDependencies": [\
+            ["@stripe/stripe-js", "npm:1.54.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3533,6 +3575,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["react-app", "workspace:."],\
+            ["@stripe/react-stripe-js", "virtual:b58b21414855c1c0532f0a8e8e942328e618bbb7ffa762cc8e765d64ae77d3d9cc66969337fd82445808ed097e56ce99cffd4cf3e405847bc521b12c293e20cb#npm:2.1.1"],\
+            ["@stripe/stripe-js", "npm:1.54.1"],\
             ["@tanstack/react-query", "virtual:b58b21414855c1c0532f0a8e8e942328e618bbb7ffa762cc8e765d64ae77d3d9cc66969337fd82445808ed097e56ce99cffd4cf3e405847bc521b12c293e20cb#npm:4.29.19"],\
             ["@types/react", "npm:18.2.14"],\
             ["@types/react-dom", "npm:18.2.6"],\
