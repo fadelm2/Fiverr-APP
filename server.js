@@ -4,7 +4,8 @@ import dotenv from "dotenv";
 import userRoute from "./routes/user.route.js"
 import cookieParser from "cookie-parser";
 import authRoute from "./routes/auth.route.js";
-//import gigRoute from "./routes/gig.route.js";
+import gigRoute from "./routes/gig.route.js";
+import reviewRoute from "./routes/review.route.js";
 import cors from "cors";
 
 const app = express();
@@ -29,7 +30,8 @@ app.use(cookieParser());
 
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
-//app.use("/api/gigs", gigRoute);
+app.use("/api/gigs", gigRoute);
+app.use("/api/reviews", reviewRoute);
 
 app.listen(8800, ()=>{
     connect();
